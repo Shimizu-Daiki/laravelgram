@@ -8,7 +8,7 @@
       <ul class="navbar-nav ml-md-auto align-items-center">
         <li>
           <a class="btn btn-primary" href="/posts/new">投稿</a>
-        </li>
+        </li> 
         <li>
           <a class="nav-link commonNavIcon profile-icon" href="#"></a>
         </li>
