@@ -1,0 +1,27 @@
+.post-profile-icon {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.delete-post-icon {
+  background-image: url("/images/parts9.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  background-size: 20px !important;
+  color: #262626;
+  font-size: 20px;
+}
+.command{
+  padding: 50px 0 0 10px;
+}
+.comment{
+  text-align: left;
+  padding-left: 10px;
+}
+.post{
+  object-fit: contain;
+  width: 300px;
+  height: 300px;
+}
