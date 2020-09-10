@@ -8,10 +8,6 @@
   width: 210px;
   background-size: 220px;
 }
-.navbar__mainLogo {
-  background-repeat: no-repeat;
-  background-image: url("/images/logo.png");
-}
 .navbar-nav > li {
   margin-left: 20px;
 }
@@ -26,6 +22,15 @@
 }
 .navbar-nav > li .profile-icon {
   background-image: url("/images/parts3.png");
+}
+.nav_title {
+  color: black;
+  font-size: 44px;
+  font-weight: bold;
+}
+.nav_title:hover {
+  text-decoration: none;
+  color: #666;
 }
 .whole {
   background-image: url('https://oze-nature.com/wallpaper/part01/photo/019_19201200.jpg');
@@ -112,4 +117,10 @@
   object-fit: contain;
   width: 300px;
   height: 300px;
+}
+.createTime {
+  text-align: left;
+  padding-left: 10px;
+  color: #bbb;
+  font-size: 13px;
 }

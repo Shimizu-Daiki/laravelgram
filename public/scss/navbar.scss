@@ -7,10 +7,7 @@
     width: 210px;
     background-size: 220px;
   }
-  &__mainLogo {
-    background-repeat: no-repeat;
-    background-image: url("/images/logo.png");
-  }
+  
   &-nav {
     & > li {
       margin-left: 20px;
@@ -28,4 +25,14 @@
       }
     }
   }
+}
+.nav_title{
+  color: black;
+  font-size: 44px;
+  font-weight: bold;
+  
+}
+.nav_title:hover{
+  text-decoration: none;
+  color: #666666	;
 }

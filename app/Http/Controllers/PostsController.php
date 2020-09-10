@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\User;
-
 use App\Post;
 use Storage;
 
@@ -16,8 +15,6 @@ class PostsController extends Controller
     {
         
         $posts = Post::all();
-        
-        
         
         return view('posts.index', ['posts' => $posts]);
     }

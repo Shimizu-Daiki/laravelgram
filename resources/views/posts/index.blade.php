@@ -67,9 +67,11 @@
                                     </p>
                                 </div>
                                 
+                                <p class="createTime">{{ $post->created_at }}</p>
                                 
                                 
-                        
+                                
+                                
                             </div>
                         </div>
                     @endforeach
